@@ -1,5 +1,6 @@
 ################################################
-## Implementing Metropolis Hastings algorithm for MCMC
+## Monte Carlo Markov Chain implemented using the 
+##  Metropolis Hastings Algorithm with Random Walk
 ## Created by Keshav Mahindra
 ################################################
 
@@ -34,8 +35,6 @@ for (i in 1:8) {
 data.frame(dead, dosage)
 
 ############# Running the Markov Chain ############
-## Monte Carlo Markov Chain implemented using the 
-##  Metropolis Hastings Algorithm with Random Walk
 
 ## Number of Steps for MCMC
 N = 50000
